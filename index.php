@@ -48,7 +48,7 @@ session_start();
 
         <div class="logo">
             <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
-            <p>BLUEBIRD</p>
+            <p>HOTEL MANAGEMENT SYSTEM</p>
         </div>
 
         <div class="auth_container">

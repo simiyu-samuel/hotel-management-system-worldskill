@@ -18,17 +18,12 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bluebirdhotel`
--- User: `bluebird_user`
--- Password:   `password`
+-- Database: `hotel`
+-- User: ``
+-- Password:   ``
 --
-DROP DATABASE IF EXISTS bluebirdhotel;
-CREATE DATABASE IF NOT EXISTS bluebirdhotel;
-
-DROP USER IF EXISTS'bluebird_user'@'%';
-CREATE USER IF NOT EXISTS 'bluebird_user'@'%' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON bluebirdhotel.* TO 'bluebird_user'@'%';
-USE bluebirdhotel;
+DROP DATABASE IF EXISTS hotel;
+CREATE DATABASE IF NOT EXISTS hotel;
 
 -- --------------------------------------------------------
 
